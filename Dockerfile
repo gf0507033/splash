@@ -45,4 +45,5 @@ ENTRYPOINT [ \
     "--js-profiles-path", "/etc/splash/js-profiles", \
     "--filters-path", "/etc/splash/filters", \
     "--lua-package-path", "/etc/splash/lua_modules/?.lua" \
+    "--disable-browser-caches" \
 ]
